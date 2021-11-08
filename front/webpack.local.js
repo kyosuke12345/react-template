@@ -5,7 +5,6 @@ const merge = require("webpack-merge");
 const common = require("./webpack.common.js");
 const webpack = require("webpack");
 /* eslint-enable @typescript-eslint/no-var-requires */
-console.log("aaaa :", path.join(__dirname, "/public"));
 
 module.exports = merge.merge(common, {
   mode: "development",
